@@ -22,10 +22,5 @@ namespace Bedrock
             }
             return stringBuilder.ToString();
         }
-
-        public static String[] Split(String key)
-        {
-            return key.Split(PATH_SEPARATOR, 2);
-        }
     }
 }

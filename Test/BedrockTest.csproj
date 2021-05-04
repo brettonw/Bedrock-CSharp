@@ -5,6 +5,7 @@
 
     <IsPackable>false</IsPackable>
     <RootNamespace>BedrockTest</RootNamespace>
+    <ReleaseVersion>1.0</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,8 +3,12 @@ namespace Bedrock
 {
     public class FormatReader
     {
-        public FormatReader()
+        protected String input;
+
+        protected FormatReader(String input = null)
         {
+            this.input = input;
         }
+
     }
 }

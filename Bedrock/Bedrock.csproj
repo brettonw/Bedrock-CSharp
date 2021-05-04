@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Bedrock</RootNamespace>
+    <ReleaseVersion>1.0</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>com.brettonw.Bedrock</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Bretton Wade</Authors>
+    <Description>Bag classes with JSON reader/writers</Description>
+    <Owners>Bretton Wade</Owners>
+    <PackageProjectUrl>https://github.com/brettonw/Bedrock-CSharp</PackageProjectUrl>
+    <Title>Bedrock</Title>
+    <Copyright>(C)2016-2021 Bretton Wade</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

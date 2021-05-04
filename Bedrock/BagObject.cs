@@ -96,7 +96,7 @@ namespace Bedrock
             container = new Pair[Math.Max(size, DEFAULT_CONTAINER_SIZE)];
         }
 
-        public override Object GetObject(String key)
+        override public Object GetObject(String key)
         {
             var path = key.Split(Key.PATH_SEPARATOR, 2);
             var index = BinarySearch(path[0]);
@@ -252,7 +252,7 @@ namespace Bedrock
             {
                 return (index >= 0) && ((path.Length == 1) || ((BagObject)container[index].value).Has(path[1]));
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 // if a requested value is not a BagObject - this should be an exceptional case
                 return false;
